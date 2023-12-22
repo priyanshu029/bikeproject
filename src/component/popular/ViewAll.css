@@ -1,0 +1,15 @@
+.viewAll{
+    background-color: wheat;
+    opacity: .9;
+    text-align: center;
+}
+
+.viewAll-heading{
+    font-size: 24px;
+    text-align: center;
+    background-color: rgb(177, 177, 236);
+}
+
+.table-data{
+    font-weight: 600;
+}

@@ -1,0 +1,83 @@
+.popularbikes{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex; 
+    justify-content: center;
+}
+
+.heading{
+    color: rgb(66, 66, 169);
+    font-size: 36px;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.card{
+    background-color: rgb(154, 154, 210);
+    margin: 25px;
+
+    margin-top: 15px;
+    padding-top: 15px;
+    overflow: visible;
+    width: 400px;
+    box-shadow: 4px 4px 5px 5px rgb(202, 202, 248);
+    display: flex; 
+    justify-content: center;
+
+    position: relative; 
+    width: max-content
+}
+
+.card-image{
+    background-color: rgb(206, 206, 233);
+    display: block;
+}
+
+.card-model{
+    text-align: left;
+    margin-top: 12px;
+    color: black;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-price{
+    text-align: left;
+    padding-left: 30px;
+    font-weight: 400;
+}
+
+.card-button{
+    /* background-color: blue; */
+    height: 45px;
+    border: none;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: 500;
+    color: blue;
+    margin: 20px;
+    border-color: blue;
+    border-radius: 12px;
+    border-width: 10px;
+}
+
+.heart-button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    border-radius: 50%;
+    position: absolute; top: 10px; right:10px;
+}
+.heart-button:hover{
+    background-color:red;
+}
